@@ -1,0 +1,292 @@
+.bloco-1 {
+    background-color: rgb(230, 215, 16);
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+}
+
+.bloco-2 {
+    background-color: rgb(236, 11, 188);
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+}
+
+.bloco-3 {
+    background-color: rgb(16, 240, 191);
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+}
+
+.bloco-1-sem-altura {
+    background-color:rgb(13, 9, 216);
+
+    width: 150px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+}
+
+.bloco-2-sem-altura {
+    background-color: rgb(76, 98, 173);
+
+    width: 150px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+}
+
+.bloco-3-sem-altura {
+    background-color: rgb(131, 170, 228);
+
+    width: 150px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    /* indiferente */
+    background-color: rgba(0, 0, 0, 0.76);
+    padding: 16px;
+    height: 500px;
+}
+
+.container-row {
+    display: flex;
+    flex-direction: row;
+    /* indiferente */
+    background-color:rgba(255, 255, 255, 0.76);
+    padding: 16px;
+    height: 500px;
+}
+
+.container-column {
+    display: flex;
+    flex-direction: column;
+    /* indiferente */
+    background-color:rgba(0, 0, 0, 0.76);
+    padding: 16px;
+    height: 500px;
+}
+
+.container-column-reverse {
+    display: flex;
+    flex-direction: column-reverse;
+    /* indiferente */
+    background-color:rgba(255, 255, 255, 0.76);
+    height: 500px;
+}
+
+.container-row-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    /* indiferente */
+    background-color:rgba(0, 0, 0, 0.76);
+    padding: 16px;
+    height: 500px;
+}
+
+.container-justify-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* indiferente */
+    background-color:rgba(255, 255, 255, 0.76);
+    padding: 16px;
+    height: 500px;
+}
+
+.container-justify-flex-start {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    /* indiferente */
+    background-color:rgba(0, 0, 0, 0.76);
+    padding: 16px;
+    height: 500px;
+}
+
+.container-justify-flex-end {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    /* indiferente */
+    background-color:rgba(255, 255, 255, 0.76);
+    padding: 16px;
+    height: 500px;
+}
+
+.container-justify-space-between {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* indiferente */
+    background-color: rgba(0, 0, 0, 0.76);
+    padding: 16px;
+    height: 500px;
+}
+
+.container-justify-space-evenly {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* indiferente */
+    background-color:rgba(255, 255, 255, 0.76);
+    padding: 16px;
+    height: 500px;
+}
+
+.container-justify-space-around {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* indiferente */
+    background-color:rgba(0, 0, 0, 0.76);
+    padding: 16px;
+    height: 500px;
+}
+
+.container-alignitems-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* indiferente */
+    background-color:rgba(255, 255, 255, 0.76);
+    padding: 16px;
+    height: 500px;
+}
+
+.container-alignitems-flex-start {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    /* indiferente */
+    background-color:rgba(0, 0, 0, 0.76);
+    padding: 16px;
+    height: 500px;
+
+}
+
+.container-alignitems-flex-end {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    /* indiferente */
+    background-color: rgba(255, 255, 255, 0.76)3;
+    padding: 16px;
+    height: 500px;
+
+}
+
+.container-alignitems-stretch {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    /* indiferente */
+    background-color: rgba(0, 0, 0, 0.76);
+    padding: 16px;
+    height: 500px;
+}
+
+.bloco-1-fontes-diferentes {
+    background-color: rgb(216, 9, 9);
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+}
+
+.bloco-2-fontes-diferentes{
+    background-color: rgb(185, 40, 178);
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+}
+
+.bloco-3-fontes-diferentes {
+    background-color: rgb(49, 175, 60);
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+}
+
+.container-alignitems-baseline {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    /* indiferente */
+    background-color: rgba(0, 0, 0, 0.76);
+    padding: 16px;
+    height: 500px;
+}
+
+.container-flexwrap-nowrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    flex-wrap: nowrap;
+    /* indiferente */
+    background-color: rgba(0, 0, 0, 0.76);
+    padding: 16px;
+    height: 500px;
+   
+
+}
+
+.container-flexwrap-wrap {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    flex-wrap: wrap;
+    /* indiferente */
+    background-color: rgba(0, 0, 0, 0.76);
+    padding: 16px;
+    height: 500px;
+
+}
+
+.container-wrap-reverse {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    flex-wrap: wrap-reverse;
+    /* indiferente */
+    background-color: rgba(0, 0, 0, 0.76);
+    padding: 16px;
+    height: 500px;
+
+
+}
